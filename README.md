@@ -113,6 +113,13 @@ Performance depends on the TFT controller, Arduino clone, and selected scale. Th
 - Port the renderer to ESP32 or RP2040 for higher resolution and frame rates.
 - Add a serial command interface for changing scale, palette, and animation speed.
 
+## 🌐 Language / Язык
+
+- **English:** Source code comments are in English in `src/main.cpp`.
+- **Русский:** Версия кода с русскими комментариями доступна в [`docs/main_ru.cpp`](docs/main_ru.cpp).
+
+> This does not affect compilation — `docs/` is excluded from the build.
+
 ## License
 
 Released under the [MIT License](LICENSE).
